@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PortFolio</title>
+        <meta charset="utf-8" />
+        <style>
+            body{
+                background-color:#1c252e;
+                font-family: Verdana,sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+                color: white;
+            }
+            
+            ul{
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            li{
+                float: right;
+            }
+            ul li:hover {
+                background-color:rgb(184, 39, 39);
+            }
+
+            a {
+                display: inline-block;
+                padding: 8px;
+                margin: 8px;
+                color: white;
+                text-decoration: none;
+            }
+            header{
+                color: rgb(184, 39, 39);
+            }
+
+            li p{
+                padding: 6px; 
+                margin: 6px; 
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .actualPage{
+                background-color: rgb(184, 39, 39);
+            }
+            div{
+                align-content: center;
+            }
+            /*div p{
+                margin: 50px;
+                width: 350px;
+                float: right;
+            }*/
+            .firstGround{
+                color: rgb(184, 39, 39);
+                position: absolute;
+                left: 100px;
+                top: 300px;
+                width: 100px; 
+                height: 100px;
+                font-size: 80px;
+            }
+            
+            .transparent{
+                position: absolute;
+                left: 225px;
+                top: 200px;
+                width: 100px;
+                height: 100px;
+                background-color: transparent;
+                outline: 2px dashed;
+                transform: rotate(90deg);
+                font-size: 80px;
+                opacity: 0.3;
+            }
+
+            .contact{
+                display: flex;
+                height: 400px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li style="float: left; background-color:#1c252e;"><p>PortFolio</p></li>
+                <li class="actualPage" ><a style = "cursor: not-allowed;">Me contacter</a></li>
+                <li><a href="MesExpériences.html">Expériences</a></li>
+                <li><a href="PortFolio.html">Accueil</a></li>
+            </ul>
+        </header>
+        <div class="contact" >
+            Mon adresse mail: prénom.nom@free.fr
+            <br>
+            <br>
+            Mon téléphone: 06.06.06.06.06
+        </div>
+    </body>
+</html>
